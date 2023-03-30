@@ -1,4 +1,4 @@
-FROM elasticsearch:8.2.0
+FROM elasticsearch:8.6.2
 LABEL org.opencontainers.image.source = "https://github.com/ftmnl/aleph-elasticsearch"
 
 RUN bin/elasticsearch-plugin install --batch analysis-icu
